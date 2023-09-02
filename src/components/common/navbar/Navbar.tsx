@@ -1,7 +1,11 @@
 const Navbar = () => {
     return (
         <>
-            <h1>This is navbar</h1>
+            <header>
+                <div className="logo flex items-center">
+                    <h1>Kiplagat</h1>
+                </div>
+            </header>
         </>
     );
 }
