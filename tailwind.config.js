@@ -1,17 +1,21 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: [],
+  content: ['./src/**/*.html', './src/**/*.tsx', './src/**/*.jsx'],
+
   theme: {
     extend: {
       screens: {
-        'sm': '640px', // Small screens, like mobile
-        'md': '768px', // Medium screens, like tablets
-        'lg': '1024px', // Large screens, like laptops
-        'xl': '1280px', // Extra-large screens, like desktops
+        'sm': '640px',
+        'md': '768px',
+        'lg': '1024px',
+        'xl': '1280px',
       },
       colors: {
         primary: {
           DEFAULT: '#007ACC',
+        },
+        primaryLight: {
+          DEFAULT: '#1681c9',
         },
         secondary: {
           DEFAULT: '#00C5A8',
@@ -26,8 +30,8 @@ export default {
           DEFAULT: '#FF6B6B',
         },
         text: {
-          DEFAULT: '#333333',
-          primary: '#007ACC',
+          DEFAULT: '#f7f7f7',
+          primary: '#f7f7f7',
           secondary: '#FF6B6B',
           visited: '#8044CC',
         },
