@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,300&display=swap');
+
+
+:root {}
+
+/* Global reset */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* Common setup */
+
+body {
+    background-color: #111;
+    color: #f7f7f7;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #040303;
+}
+
+
+section:nth-child(odd) {
+    background: #0A0B12;
+}

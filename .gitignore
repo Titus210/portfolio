@@ -1,0 +1,30 @@
+# .gitignore
+
+# Ignore Node.js-related files and directories
+node_modules/
+package-lock.json
+npm-debug.log
+
+# Ignore Vite's build output directory
+dist/
+
+# Ignore development server logs
+.log
+
+# Ignore environment-specific files
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore IDE and editor-specific files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
