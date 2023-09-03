@@ -41,13 +41,23 @@ p {
 
 section {
     height: 100vh;
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
     background: #040303;
 }
 
 
 section:nth-child(odd) {
     background: #0A0B12;
+}
+
+.image {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    height: 100%;
+    width: 100%;
+
 }

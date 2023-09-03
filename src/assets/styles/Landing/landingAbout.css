@@ -1,0 +1,8 @@
+/* Style image for image
+*/
+
+.image-hero{
+    background-image: url('../../images/my-bg.png');
+    background-position: center;
+    background-size: cover;
+}
