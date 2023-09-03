@@ -1,43 +1,37 @@
-import Heading from "../../common/Section/Heading";
-import PrimaryButton from "../../ui/buttons/PrimaryButton";
-
 import "../../../assets/styles/Landing/landingProjects.css"
+
+import PrimaryButton from "../../ui/buttons/PrimaryButton";
 import SecondaryButton from "../../ui/buttons/SecondaryButton";
 
 const LandingProjects = () => {
 
     return (
         <>
-            <div className="landing-about   w-full">
-                <div className="flex flex-col  justify-between w-11/12  mx-auto ">
+            <div className="landing-about   w-full ">
+                <div className="flex flex-col  justify-between w-12/12  mx-auto ">
                     <div className="content">
-                        <div className="category flex p-2 ">
-                            <p>
-                                <PrimaryButton text="Frontend" color="text-white" />
-                            </p>
-                            <p className="ml-4">
-                                <PrimaryButton text="UI Design" color="text-white" />
-                            </p>
-                        </div>
-                        <div className="projectItems w-11/12 mx-auto mt-4">
-                            <div className="project">
+                        <div className="projectItems w-full  mx-auto mt-4  flex flex-col justify-between p-4 md:w-11/12 lg:flex-row ">
+                            <div className="project flex flex-col items-center justify-evenly p-2    md:w-full md:flex-row lg:w-7/12 ">
                                 <div>
-                                    <h3 className="text-lg font-semibold">
-                                        <span className="text-secondary font-semibold"> 1. </span>
-                                        GreenMart
-                                    </h3>
-                                </div>
-                                <div className="flex items-center justify-center mt-4">
-                                    <div className="image-wrapper py-3 flex">
-                                        <div className="image image-projects w-11/12 mx-auto"></div>
+                                    <div>
+                                        <h3 className="text-lg font-semibold">
+                                            <span className="text-secondary font-semibold"> 1. </span>
+                                            GreenMart
+                                        </h3>
+                                    </div>
+                                    <div className="flex items-center justify-center mt-4">
+                                        <div className="image-wrapper py-3 flex">
+                                            <div className="image image-projects w-11/12 mx-auto"></div>
+                                        </div>
                                     </div>
                                 </div>
-                                <div className="details mt-4">
+                                <div className="details mt-4 ">
                                     <div className="flex ">
                                         <p>
                                             <SecondaryButton color="text-white" text="Github" />
                                         </p>
                                         <p className="mx-2">
+
                                             <SecondaryButton color="text-white" text="View Site" />
                                         </p>
                                         <p>
@@ -59,9 +53,17 @@ const LandingProjects = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="other-projects mt-4">
+                            <div className="other-projects mt-4 p-4  md:mt-0">
+                                <div className="category flex p-2 ">
+                                    <p>
+                                        <PrimaryButton text="Frontend" color="text-white" />
+                                    </p>
+                                    <p className="ml-4">
+                                        <SecondaryButton text="UI Design" color="text-white" />
+                                    </p>
+                                </div>
                                 <h4 className="text-xl font-semibold text-text-secondary">Other Projects</h4>
-                                <div className="cards flex flex-wrap gap-3 items-center justify-center mt-4">
+                                <div className="cards flex flex-wrap gap-3 items-center justify-center my-4">
                                     <article className="w-5/12 border shadow-sm  h-24 flex items-center justify-center rounded-lg ">
                                         <h2 className="text-lg text-secondary font-semibold">Devcafe</h2>
                                     </article>
@@ -74,6 +76,11 @@ const LandingProjects = () => {
                                     <article className="w-5/12 border shadow-sm  h-24 flex items-center justify-center  rounded-lg">
                                         <h2 className="text-lg text-secondary font-semibold">Devcafe</h2>
                                     </article>
+                                </div>
+                                <div className="category flex p-2 ">
+                                    <p className="w-11/12 mx-auto">
+                                        <PrimaryButton text="All Projects" color="text-white" />
+                                    </p>
                                 </div>
                             </div>
                         </div>

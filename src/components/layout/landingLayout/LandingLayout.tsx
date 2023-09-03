@@ -17,7 +17,7 @@ const LandingLayout = () => {
                     </section>
 
                     {/* About */}
-                    <section className="background-1  h-max py-12">
+                    <section className=" h-max py-6">
                         <div className="flex items-center  justify-center mb-6 md:mb-12">
                             <Heading headingText="About" />
                         </div>
@@ -32,23 +32,27 @@ const LandingLayout = () => {
                     </section> */}
 
                     {/*Projects */}
-                    <section className="background-1 bg-primaryBg py-12">
+                    <section className="bg-primaryBg py-6 h-full">
                         <div className="flex items-center  justify-center mb-6 md:mb-12">
                             <Heading headingText="Projects" />
                         </div>
                         <div className="page-container   flex items-center justify-center">
                             <LandingProjects />
                         </div>
-
                     </section>
 
                     {/* Blogs */}
-                    <section className="background-2 bg-secondaryBg">
-                        <LandingBlogs />
+                    <section className="bg-secondaryBg py-6">
+                        <div className="flex items-center  justify-center mb-6 md:mb-12">
+                            <Heading headingText="My Blogs" />
+                        </div>
+                        <div className="page-container   flex items-center justify-center">
+                            <LandingBlogs />
+                        </div>
                     </section>
 
                     {/* Contact */}
-                    <section className="background-1 bg-primaryBg">
+                    <section className="bg-primaryBg">
                         <LandingContact />
                     </section>
                 </div>
