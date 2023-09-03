@@ -1,6 +1,5 @@
-import Footer from "../../common/footer/Footer";
-import Navbar from "../../common/navbar/Navbar";
-import Expertise from "./Expertise";
+import Heading from "../../common/Section/Heading";
+// import Expertise from "./Expertise";
 import LandingAbout from "./LandingAbout";
 import LandingBlogs from "./LandingBlogs";
 import LandingContact from "./LandingContact";
@@ -10,32 +9,37 @@ import LandingProjects from "./LandingProjects";
 const LandingLayout = () => {
     return (
         <>
-            <main className="landing">
+            <main className="">
                 <div>
-
-                    {/* Navbar */}
-                    <section className="background-1 bg-primaryBg">
-                        <Navbar />
-                    </section>
-
                     {/*Hero*/}
-                    <section className="background-2 bg-secondaryBg">
+                    <section className="background-2 bg-secondaryBg flex justify-center items-center ">
                         <LandingHero />
                     </section>
 
                     {/* About */}
-                    <section className="background-1 bg-primaryBg">
-                        <LandingAbout />
+                    <section className="background-1  h-max py-12">
+                        <div className="flex items-center  justify-center mb-6 md:mb-12">
+                            <Heading headingText="About" />
+                        </div>
+                        <div className="page-container   flex items-center justify-center">
+                            <LandingAbout />
+                        </div>
                     </section>
 
                     {/*Expertise */}
-                    <section className="background-2 bg-secondaryBg">
+                    {/* <section className="background-2 bg-secondaryBg">
                         <Expertise />
-                    </section>
+                    </section> */}
 
                     {/*Projects */}
-                    <section className="background-1 bg-primaryBg">
-                        <LandingProjects />
+                    <section className="background-1 bg-primaryBg py-12">
+                        <div className="flex items-center  justify-center mb-6 md:mb-12">
+                            <Heading headingText="Projects" />
+                        </div>
+                        <div className="page-container   flex items-center justify-center">
+                            <LandingProjects />
+                        </div>
+
                     </section>
 
                     {/* Blogs */}
@@ -46,11 +50,6 @@ const LandingLayout = () => {
                     {/* Contact */}
                     <section className="background-1 bg-primaryBg">
                         <LandingContact />
-                    </section>
-
-                    {/*Footer */}
-                    <section className="background-2 bg-secondaryBg">
-                        <Footer />
                     </section>
                 </div>
             </main>
