@@ -15,7 +15,7 @@ export default {
           DEFAULT: '#007ACC',
         },
         primaryLight: {
-          DEFAULT: '#1681c9',
+          DEFAULT: '#1681b4',
         },
         secondary: {
           DEFAULT: '#00C5A8',
