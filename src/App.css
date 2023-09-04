@@ -1,4 +1,18 @@
-/* Font */
+/**
+ * app.css
+ *
+ * This CSS file contains styles for the entire application.
+ *
+ * Key Points:
+ * - Fonts are imported from Google Fonts, including Montserrat and Roboto.
+ * - Global reset: All elements have margin and padding set to zero.
+ * - Common setup: Body background color and text color are defined.
+ * - Font families are specified for headings and paragraphs.
+ * - Section styles: Sections have a minimum height of 100vh.
+ * - Even sections have a specific background color and a box-shadow effect.
+ * - Image styles are defined for background images within sections.
+ */
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,300&display=swap');
 
 @tailwind base;
@@ -44,12 +58,14 @@ section {
     /* display: flex;
     justify-content: center;
     align-items: center; */
-    background: #040303;
+    
 }
 
 
-section:nth-child(odd) {
-    background: #0A0B12;
+section:nth-child(even) {
+    background: #032f4b;
+    box-shadow:inset 6px 14px 28px rgba(43, 33, 100, 0.2); 
+    
 }
 
 .image {
