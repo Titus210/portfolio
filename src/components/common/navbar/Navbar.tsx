@@ -3,6 +3,31 @@ import { Link } from "react-router-dom";
 import { BiMenuAltRight } from 'react-icons/bi';
 import { AiOutlineClose } from 'react-icons/ai';
 
+/**
+ * Navbar Component:
+ *
+ * The Navbar component represents the navigation bar/header of a web page. It includes the following features:
+ *
+ * - Logo with the text "Kiplagat" for branding.
+ * - Navigation menu with links to different sections of the website.
+ * - Responsive behavior: The menu is initially hidden on small screens (md:hidden) and can be toggled using
+ *   the menu button.
+ * - Menu button with icons (BiMenuAltRight for opening and AiOutlineClose for closing).
+ *
+ * Key Points:
+ * - The header has a background color of "bg-secondaryBg" for a consistent design.
+ * - The logo and navigation menu are centered using flex layout.
+ * - The navigation links have hover effects to improve interactivity.
+ * - On smaller screens, the menu is displayed as a dropdown.
+ *
+ * Suggestions:
+ * - Replace the placeholder link destinations (e.g., <Link to="/">) with actual URLs.
+ * - Ensure that the mobile menu (hamburger menu) opens and closes correctly.
+ * - Consider adding transition animations for a smoother user experience.
+ *
+ * Overall, the component structure and code organization are well done, following best practices for a navigation bar.
+ */
+
 
 const Navbar = () => {
     return (
