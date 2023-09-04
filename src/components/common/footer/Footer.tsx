@@ -1,6 +1,33 @@
 import { PiGithubLogoFill, PiLinkedinLogo } from "react-icons/pi";
 import { SiHashnode } from "react-icons/si";
 
+
+/**
+ * Footer Component:
+ *
+ * This component represents the footer section of the web page. It contains information about the developer
+ * and links to their social media profiles.
+ *
+ * - The background color is set to "bg-secondaryBg" for consistency with the site's design.
+ * - The layout is responsive, adjusting between a single column layout on smaller screens and a two-column
+ *   layout on medium-sized screens (md:flex-row).
+ *
+ * Inside the left column (text w-9/12 md:w-7/12):
+ * - The developer's name ("Titus Kiplagat") is displayed in a large font size for emphasis.
+ * - A brief description of the developer's role as a frontend web developer is provided.
+ *
+ * Inside the right column (socials):
+ * - Social media icons for LinkedIn, GitHub, and Hashnode are displayed with hover effects for interactivity.
+ * - These icons are visually appealing and serve as links to the respective profiles.
+ *
+ * Note:
+ * - Consider adding actual links to the social media profiles in the component.
+ * - Ensure that hover effects work consistently across different browsers.
+ *
+ * Overall, the component is well-structured, and the code follows best practices for creating a footer section.
+ */
+
+
 const Footer = () => {
     return (
         <>
