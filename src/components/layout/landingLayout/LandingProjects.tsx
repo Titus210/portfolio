@@ -54,6 +54,7 @@ const LandingProjects = () => {
                                 </div>
                             </div>
                             <div className="other-projects mt-4 p-4  md:mt-0">
+                                <h4 className="text-xl font-semibold  mb-4">Other Projects</h4>
                                 <div className="category flex p-2 ">
                                     <p>
                                         <PrimaryButton text="Frontend" color="text-white" />
@@ -62,7 +63,7 @@ const LandingProjects = () => {
                                         <SecondaryButton text="UI Design" color="text-white" />
                                     </p>
                                 </div>
-                                <h4 className="text-xl font-semibold text-text-secondary">Other Projects</h4>
+
                                 <div className="cards flex flex-wrap gap-3 items-center justify-center my-4">
                                     <article className="w-5/12 border shadow-sm  h-24 flex items-center justify-center rounded-lg ">
                                         <h2 className="text-lg text-secondary font-semibold">Devcafe</h2>
