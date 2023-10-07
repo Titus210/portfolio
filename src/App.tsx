@@ -7,6 +7,8 @@ import Blogs from "./pages/blogs/Blogs";
 import "./App.css"
 import LandingPage from "./pages/landingPage/LandingPage";
 import NotFound from "./pages/notFound/NotFound";
+import Projects from "./pages/portfolio/Projects";
+
 
 const App = () => {
   return (
@@ -17,6 +19,7 @@ const App = () => {
           <Route path='/about' element={<About />} />
           <Route path='/contact' element={<Contact />} />
           <Route path='/contact' element={<Blogs />} />
+          <Route path='/projects' element={<Projects />} />
 
           <Route path='/not-found' element={<NotFound />} />
 

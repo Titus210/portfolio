@@ -1,9 +1,20 @@
-const Portfolio = () => {
+import Footer from "../../components/common/footer/Footer";
+import Navbar from "../../components/common/navbar/Navbar";
+import ProjectsLayout from "../../components/layout/projectLayout/ProjectLayout";
+
+const Projects = () => {
     return (
         <>
-            <h1>This is Portfolio</h1>
+            {/* Navbar */}
+            <Navbar />
+
+            {/* Projects layout */}
+            <ProjectsLayout />
+
+            {/* Footer */}
+            <Footer />
         </>
     );
 }
 
-export default Portfolio;
+export default Projects;
