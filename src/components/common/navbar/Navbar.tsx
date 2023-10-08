@@ -21,8 +21,7 @@ import { AiOutlineClose } from 'react-icons/ai';
  * - On smaller screens, the menu is displayed as a dropdown.
  *
  * Suggestions:
- * - Replace the placeholder link destinations (e.g., <Link to="/">) with actual URLs.
- * - Ensure that the mobile menu (hamburger menu) opens and closes correctly.
+  * - Ensure that the mobile menu (hamburger menu) opens and closes correctly.
  * - Consider adding transition animations for a smoother user experience.
  *
  * Overall, the component structure and code organization are well done, following best practices for a navigation bar.
@@ -35,14 +34,14 @@ const Navbar = () => {
             <header className="bg-secondaryBg  md:p-4 " >
                 <div className="logo flex justify-between p-2 mx-auto relative lg:w-11/12">
                     <div className="logo flex ">
-                        <h1 className="text-2xl font-bold">Kiplagat</h1>
+                        <h1 className="text-2xl font-bold"><Link to="/">T.K</Link></h1>
                     </div>
                     <nav className="hidden flex-col p-4 right-0 top-0 text-center  absolute w-7/12 h-72 justify-center bg-primaryLight shadow-sm lg:flex md:flex-row md:bg-inherit md:w-12/12 md:p-0 md:h-max">
                         <p className="text-text-primary font-bold text-xl mb-4 md:mr-6 p-2  hover:text-primary md:mb-0"><Link to="/">Home</Link></p>
-                        <p className="text-text-primary font-bold text-xl mb-4 md:mr-6 p-2  hover:text-primary md:mb-0"><Link to="/">About</Link></p>
-                        <p className="text-text-primary font-bold text-xl mb-4 md:mr-6 p-2  hover:text-primary md:mb-0"><Link to="/">Expertise</Link></p>
-                        <p className="text-text-primary font-bold text-xl mb-4 md:mr-6 p-2  hover:text-primary md:mb-0"><Link to="/">Projects</Link></p>
-                        <p className="text-text-primary font-bold text-xl p-2  hover:text-primary md:mb-0"><Link to="/">Contact</Link></p>
+                        <p className="text-text-primary font-bold text-xl mb-4 md:mr-6 p-2  hover:text-primary md:mb-0"><Link to="/about">About</Link></p>
+                        <p className="text-text-primary font-bold text-xl mb-4 md:mr-6 p-2  hover:text-primary md:mb-0"><Link to="/expertise">Expertise</Link></p>
+                        <p className="text-text-primary font-bold text-xl mb-4 md:mr-6 p-2  hover:text-primary md:mb-0"><Link to="/projects">Projects</Link></p>
+                        <p className="text-text-primary font-bold text-xl p-2  hover:text-primary md:mb-0"><Link to="/contact">Contact</Link></p>
                     </nav>
                 </div>
                 <div className="menu-bar absolute top-0 right-0 p-2 md:hidden">
