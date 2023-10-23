@@ -3,8 +3,7 @@ import "../../../assets/styles/Landing/landingProjects.css"
 import PrimaryButton from "../../ui/buttons/PrimaryButton";
 import SecondaryButton from "../../ui/buttons/SecondaryButton";
 
-const LandingProjects = () => {
-
+const OtherProjects = () => {
     return (
         <>
             <div className="landing-pojeccts   w-full ">
@@ -92,4 +91,4 @@ const LandingProjects = () => {
     );
 }
 
-export default LandingProjects;
+export default OtherProjects;

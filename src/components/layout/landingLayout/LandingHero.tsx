@@ -1,11 +1,12 @@
 
 import { RiLinkedinFill } from 'react-icons/ri';
-import {AiFillGithub} from 'react-icons/ai'
-import {SiHashnode} from 'react-icons/si'
+import { AiFillGithub } from 'react-icons/ai'
+import { SiHashnode } from 'react-icons/si'
 
 import PrimaryButton from "../../ui/buttons/PrimaryButton";
 import '../../../assets/styles/Landing/landingAbout.css'
 import SecondaryButton from '../../ui/buttons/SecondaryButton';
+import { Link } from 'react-router-dom';
 
 
 /**
@@ -34,6 +35,8 @@ import SecondaryButton from '../../ui/buttons/SecondaryButton';
 
 
 const LandingHero = () => {
+
+
     return (
         <>
             <div className="landing-hero  md:w-11/12 mx-auto  ">
@@ -61,17 +64,24 @@ const LandingHero = () => {
                         <div className="social-icons mt-4 flex">
                             <div className="linkedin">
                                 <p className="text-white">
-                                    <RiLinkedinFill className='w-8 h-8' />
+                                    <a href="https://www.linkedin.com/in/titus-kiplagat-5146ba210/">
+                                        <RiLinkedinFill className='w-8 h-8' />
+                                    </a>
                                 </p>
+
                             </div>
                             <div className="github mx-3">
                                 <p className="text-white">
-                                    <AiFillGithub className='w-8 h-8'/>
+                                    <a href='https://github.com/Titus210'>
+                                        <AiFillGithub className='w-8 h-8' />
+                                    </a>
                                 </p>
                             </div>
                             <div className="">
                                 <p className="text-white">
-                                    <SiHashnode className='w-8 h-8'/>
+                                    <a href='https://kiplagatitus.hashnode.dev/'>
+                                        <SiHashnode className='w-8 h-8' />
+                                    </a>
                                 </p>
                             </div>
                         </div>

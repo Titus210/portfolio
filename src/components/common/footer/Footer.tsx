@@ -1,5 +1,6 @@
 import { PiGithubLogoFill, PiLinkedinLogo } from "react-icons/pi";
 import { SiHashnode } from "react-icons/si";
+import { Link } from "react-router-dom";
 
 
 /**
@@ -39,13 +40,19 @@ const Footer = () => {
                     </div>
                     <div className="socials flex  items-center mt-5 md:mt-0">
                         <div className="linkedIn flex items-center justify-center overflow-hidden rounded-full h-12 w-12 bg-slate-500">
-                            <PiLinkedinLogo className="w-7 h-7 hover:scale-125" />
+                            <a href="https://www.linkedin.com/in/titus-kiplagat-5146ba210/">
+                                <PiLinkedinLogo className="w-7 h-7 hover:scale-125" />
+                            </a>
                         </div>
                         <div className="github mx-4 flex items-center justify-center overflow-hidden rounded-full h-12 w-12 bg-slate-500">
-                            <PiGithubLogoFill className="w-7 h-7 hover:scale-125" />
+                            <a href="https://github.com/Titus210">
+                                <PiGithubLogoFill className="w-7 h-7 hover:scale-125" />
+                            </a>
                         </div>
                         <div className="hashnode flex items-center justify-center overflow-hidden rounded-full h-12 w-12 bg-slate-500">
-                            <SiHashnode className="w-7 h-7 hover:scale-125" />
+                            <a href="https://kiplagatitus.hashnode.dev/">
+                                <SiHashnode className="w-7 h-7 hover:scale-125" />
+                            </a>
                         </div>
                     </div>
 
