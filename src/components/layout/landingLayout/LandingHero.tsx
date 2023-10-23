@@ -64,7 +64,7 @@ const LandingHero = () => {
                         <div className="social-icons mt-4 flex">
                             <div className="linkedin">
                                 <p className="text-white">
-                                    <a href="https://www.linkedin.com/in/titus-kiplagat-5146ba210/">
+                                    <a href="https://www.linkedin.com/in/titus-kiplagat-5146ba210/" title='Linkedin'>
                                         <RiLinkedinFill className='w-8 h-8' />
                                     </a>
                                 </p>
@@ -72,14 +72,14 @@ const LandingHero = () => {
                             </div>
                             <div className="github mx-3">
                                 <p className="text-white">
-                                    <a href='https://github.com/Titus210'>
+                                    <a href='https://github.com/Titus210' title='Github'>
                                         <AiFillGithub className='w-8 h-8' />
                                     </a>
                                 </p>
                             </div>
                             <div className="">
                                 <p className="text-white">
-                                    <a href='https://kiplagatitus.hashnode.dev/'>
+                                    <a href='https://kiplagatitus.hashnode.dev/' title='Hashnode'>
                                         <SiHashnode className='w-8 h-8' />
                                     </a>
                                 </p>

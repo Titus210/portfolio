@@ -77,3 +77,7 @@ section:nth-child(even) {
     width: 100%;
 
 }
+
+a:hover{
+    cursor: pointer;
+}

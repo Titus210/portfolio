@@ -40,17 +40,17 @@ const Footer = () => {
                     </div>
                     <div className="socials flex  items-center mt-5 md:mt-0">
                         <div className="linkedIn flex items-center justify-center overflow-hidden rounded-full h-12 w-12 bg-slate-500">
-                            <a href="https://www.linkedin.com/in/titus-kiplagat-5146ba210/">
+                            <a href="https://www.linkedin.com/in/titus-kiplagat-5146ba210/" title="LinkedIn">
                                 <PiLinkedinLogo className="w-7 h-7 hover:scale-125" />
                             </a>
                         </div>
                         <div className="github mx-4 flex items-center justify-center overflow-hidden rounded-full h-12 w-12 bg-slate-500">
-                            <a href="https://github.com/Titus210">
+                            <a href="https://github.com/Titus210" title="GitHub">
                                 <PiGithubLogoFill className="w-7 h-7 hover:scale-125" />
                             </a>
                         </div>
                         <div className="hashnode flex items-center justify-center overflow-hidden rounded-full h-12 w-12 bg-slate-500">
-                            <a href="https://kiplagatitus.hashnode.dev/">
+                            <a href="https://kiplagatitus.hashnode.dev/" title="Hashnode">
                                 <SiHashnode className="w-7 h-7 hover:scale-125" />
                             </a>
                         </div>
@@ -64,3 +64,4 @@ const Footer = () => {
 }
 
 export default Footer;
+                          
